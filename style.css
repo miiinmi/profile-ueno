@@ -79,10 +79,9 @@ h4{
 }
 
 #works img{
-    width: 100%;
-    display: flexbox;
+    width: 90%;
     justify-content: space-between;
-    list-style: none;  
+    list-style: none;    
 }
 
 li{
@@ -92,7 +91,6 @@ li{
 .works-my{
     display: flex;
     justify-content: center;
-    margin: 20px 30px;
 }
 
 /*Skill*/
@@ -105,12 +103,10 @@ li{
     width: 120px;
     height: 120px;
     display: flexbox;
-    justify-content: space-between;
-    list-style: none;    
+    justify-content: space-between;   
 }
 
-li{
-    list-style: none;
+.skill-logo li{
     margin: 10px 30px;
 }
 
