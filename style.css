@@ -1,0 +1,129 @@
+body{
+    width: 100%;
+    font-family:'Times New Roman', Times, serif
+}
+
+/*ヘッダー*/
+.site-title{
+    width: 120px;
+}
+
+img{
+    max-width: 100%;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header ul {
+    display: flex;
+}
+
+#header li {
+    margin: 20px 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*メイン画像*/
+#main img {
+    width: 100%;
+}
+
+/*見出し*/
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 60px 0 30px ;
+    border-bottom: solid 1px black;
+    display: inline-block;
+}
+
+/*About*/
+#about {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4{
+    margin-top: 30px;
+}
+
+/*About 画像*/
+#about img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 30px 80px;
+    
+}
+
+/*Works*/
+#works{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#works img{
+    width: 100%;
+    display: flexbox;
+    justify-content: space-between;
+    list-style: none;  
+}
+
+li{
+    list-style: none;
+}
+
+.works-my{
+    display: flex;
+    justify-content: center;
+    margin: 20px 30px;
+}
+
+/*Skill*/
+#skill{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#skill img{
+    width: 120px;
+    height: 120px;
+    display: flexbox;
+    justify-content: space-between;
+    list-style: none;    
+}
+
+li{
+    list-style: none;
+    margin: 10px 30px;
+}
+
+.skill-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*フッター*/
+#footer {
+    font-size: 0.5rem;
+    padding: 10px 0;
+    margin-top: 40px;
+    text-align: center;
+  }
